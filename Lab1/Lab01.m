@@ -1,3 +1,7 @@
+% Lab01.m
+% Description - Completes Lab number 1
+% Author: Robert Irwin
+
 %% Section 1
 %generate function for lab 1
 clear; clc;
@@ -106,7 +110,7 @@ end
 DFTcoeff = abs(DFTcoeff);
 coeff = DFTcoeff.^2;
 
-%% Section 7 - answers 4
+%% Section 7 - answers question 4
 clear;clc;
 syms t
 
